@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Infowave Institute - Information Page</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+            background-color: #f4f4f9;
+        }
+        header {
+            background: #0073e6;
+            color: white;
+            padding: 10px 20px;
+            text-align: center;
+        }
+        nav {
+            text-align: center;
+            margin: 10px 0;
+        }
+        nav a {
+            text-decoration: none;
+            color: #0073e6;
+            margin: 0 10px;
+            font-weight: bold;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        section {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background: white;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        h1, h2 {
+            color: #333;
+        }
+        ul {
+            list-style-type: disc;
+            padding-left: 20px;
+        }
+        footer {
+            text-align: center;
+            background: #333;
+            color: white;
+            padding: 10px 0;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Welcome to Infowave Institute</h1>
+    <p>Your gateway to skill enhancement and career growth</p>
+</header>
+
+<nav>
+    <a href="#about">About Us</a>
+    <a href="#courses">Courses</a>
+    <a href="#contact">Contact</a>
+</nav>
+
+<section id="about">
+    <h2>About Infowave Institute</h2>
+    <p>Infowave Institute is a premier learning center dedicated to providing high-quality training in technology, business, and personal development. Our mission is to empower individuals with the skills they need to succeed in the modern world.</p>
+</section>
+
+<section id="courses">
+    <h2>Courses Offered</h2>
+    <ul>
+        <li>Web Development (HTML, CSS, JavaScript, React, Angular)</li>
+        <li>Data Science and Machine Learning</li>
+        <li>Cloud Computing (Azure, AWS, GCP)</li>
+        <li>Cybersecurity and Ethical Hacking</li>
+        <li>Digital Marketing and SEO</li>
+    </ul>
+</section>
+
+<section id="contact">
+    <h2>Contact Us</h2>
+    <p>If you have any questions or need more information, feel free to reach out to us:</p>
+    <ul>
+        <li><strong>Address:</strong> 123 Knowledge Avenue, Tech City, TX 75001</li>
+        <li><strong>Phone:</strong> +1-800-555-1234</li>
+        <li><strong>Email:</strong> info@infowaveinstitute.com</li>
+    </ul>
+</section>
+
+<footer>
+    <p>&copy; 2024 Infowave Institute. All Rights Reserved.</p>
+</footer>
+
+</body>
+</html>
